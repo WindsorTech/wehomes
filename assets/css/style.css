@@ -95,6 +95,10 @@
 
 @media only screen and (max-width: 480px) {
 
+#we-coming {
+  width: 100%;
+}
+
 .container {
     width: 99%
 }
