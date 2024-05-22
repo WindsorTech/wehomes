@@ -1,0 +1,531 @@
+h4 {
+	margin-top: 15px;
+	color: #244DA4;
+}
+
+.header {
+	background-color: white;
+}
+
+.header hr {
+	height: 0.5px;
+	background-color: #244DA4;
+	margin-top: -11%;
+	margin-bottom: 0px;	
+}
+
+.container-fluid {
+	margin-top: -11%;
+	margin-left: 12%;
+}
+
+.top-menu {
+	align-content: center;
+    margin: auto;
+    font-weight: bold;
+    padding-left: 10%; 
+} 
+
+.top-menu li {	
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.menusp1 {
+	margin-left: -28%;
+}
+
+.menusp2 {
+	margin-right: 80px;
+}
+
+.menusp4 {
+	margin-right: 75px;
+}
+
+.barmob {
+  visibility: hidden;
+}
+
+.about-img {
+   position: relative;
+   display: inline-block; 
+   margin: auto;
+   width: 100%; 
+}
+
+.photo-form {
+   position: relative;
+   display: inline-block; 
+   margin: auto;
+   width: 100%;  
+}
+
+.photo-form img {
+	width: 100%;
+}
+
+.cash-offer-form {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2%; 
+    width: 33%;
+    color: white;
+    font-weight: bold;
+}
+
+.cash-offer-form legend {
+	margin-bottom: -7px;
+}
+
+.cash-offer-form form {
+    width: 90%;
+    margin: auto;
+}
+
+.cash-offer-form button {
+	margin-top: 25px;
+	width: 90%;
+	margin-top: 20px;
+    text-align: center;
+}
+
+.botao2 {
+	margin-top: 2.5%;
+	width: 50%;
+}
+
+.formulario {
+	margin-top: -10px;
+	text-align: center;
+	color: #2D2D2D;
+}
+
+.form-group {
+	margin-bottom: -5px;
+}
+
+.success-home {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 25%; 
+    width: 35%;
+    color: white;
+    font-weight: bold;
+}
+
+.success-page {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.success-page legend {
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+.container {
+    margin-top: 10px;
+    width: 55%;
+    text-align: center;
+}
+
+.container h4, h5 {
+	margin-bottom: 2%;
+	line-height: 1.8;
+}
+
+.container hr {
+	background-color: #CED4DA;
+}
+
+.row {
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+.help h4 {
+	font-size: 25px;
+}
+
+.re-icon {
+	display: block;
+    margin: auto;
+}
+
+.re-left {
+	margin-right: -10%;
+}
+
+.re-right {
+	margin-left: -10%;	
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding: 16px;
+	margin-top: 20px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	opacity: 0.8;
+}
+
+.footer-link {
+	margin-top: 0.2%;
+}
+
+.footer h6 {
+	color: white;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: -5px;
+}
+
+.footer hr {
+	background-color: white;
+	width: 70%;
+}
+
+.social-links {
+	margin-right: 73.9%;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+h4 {
+	font-size: 22px;
+}
+
+.header {	
+	display: block;
+	margin: auto;
+}
+
+.header img {	
+	position: relative;
+	width: 50%;
+	height: 50%;
+  	margin: auto;
+  	display: block;
+}
+
+.header hr {
+	margin-top: -5px;
+}
+
+.container-fluid {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.barmob {
+  visibility: visible;
+  margin-top: -12%;
+  margin-left: 8%;
+}
+
+#myLinks {
+  display: none;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+#myLinks a {
+  color: #898F94; 
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#myLinks a:hover {
+  background-color: #dedede;
+}
+
+.about-img {
+  height: 80px;
+}
+
+.photo-form img {
+	width: 100%;
+	height: 400px;
+}
+
+.cash-offer-form legend {
+	margin-bottom: -7px;
+	font-size: 22px;
+}
+
+.cash-offer-form {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2%; 
+    width: 85%;
+    color: white;
+    font-weight: bold;
+}
+
+.success-home {
+    width: 70%;
+    margin-top: -15%;
+}
+
+.help {
+	width: 80%;
+	margin: auto;
+}
+
+.help h4 {
+	font-size: 23px;
+}
+
+.re-icon {
+	display: block;
+    margin: auto;
+}
+
+.re-left {
+	display: block;
+    margin: auto;
+}
+
+.re-right {
+	display: block;
+    margin: auto;
+}
+
+.container {
+	width: 100%;
+}
+
+.container h5 {
+	margin-bottom: 8%;
+}
+
+.formulario button {
+	margin-top: 7%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.botao2 {
+	width: 70%;
+}
+
+.contact-details img {
+	margin-top: 4%;
+}
+
+.footer hr {
+	width: 100%;
+}
+
+.footer img {
+	margin-bottom: 4%;
+}
+
+.footer a {
+	font-size: 16px;
+}
+
+.footer h6 {
+	margin-top: 5px;
+	margin-right: 10%;
+
+}
+
+.footer-link {
+	font-size: 17px;
+	margin-bottom: 1%;
+}
+
+.social-links {
+	margin: auto;
+}
+
+.social-links img {
+	height: 9%;
+	width: 9%;
+}
+
+.follow {
+	margin-top: 3%;
+}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 853px) {
+
+.header {	
+	display: block;
+	margin: auto;
+}
+
+.header img {	
+	position: relative;
+	width: 25%;
+	height: 65%;
+  	margin: auto;
+  	display: block;
+}
+
+.header hr {
+	margin-top: -5px;
+}
+
+.container-fluid {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.barmob {
+  visibility: visible;
+  margin-top: -6%;
+  margin-left: 20%;
+}
+
+#myLinks {
+  display: none;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+#myLinks a {
+  color: #898F94; 
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#myLinks a:hover {
+  background-color: #dedede;
+}
+
+.photo-form img {
+	width: 100%;
+	height: 400px;
+}
+
+.cash-offer-form legend {
+	margin-bottom: -7px;
+	font-size: 22px;
+}
+
+.cash-offer-form {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2%; 
+    width: 65%;
+    color: white;
+    font-weight: bold;
+}
+
+.success-home {
+    width: 70%;
+    margin-top: -10%;
+}
+
+.help {
+	width: 80%;
+	margin: auto;
+}
+
+.help h4 {
+	font-size: 23px;
+}
+
+.re-icon {
+	display: block;
+    margin: auto;
+}
+
+.container {
+	width: 100%;
+}
+
+.container h5 {
+	margin-bottom: 4%;
+}
+
+.about-img {
+  height: 100px;
+}
+
+.formulario button {
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contact-details img {
+	margin-top: 4%;
+}
+
+.footer hr {
+	width: 100%;
+}
+
+.footer img {
+	margin-bottom: 2%;
+}
+
+.footer a {
+	font-size: 16px;
+}
+
+.footer h6 {
+	margin-top: 0px;
+	margin-right: 5%;
+}
+
+.footer-link {
+	font-size: 17px;
+	margin-bottom: 1%;
+}
+
+.social-links {
+	margin: auto;
+}
+
+.social-links img {
+	height: 4.5%;
+	width: 4.5%;
+}
+
+.follow {
+	margin-top: 1.5%;
+}
+
+}
+
+
+/*
+text-align: justify;
+display: flex;
+justify-content: center;
+text-decoration: none;
+align-items: left;
+border-spacing: 60px;
+border: 20px;
+border-color: black;
+overflow: hidden; 
+*/
